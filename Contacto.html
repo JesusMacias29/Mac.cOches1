@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Contacto - Mac.cOches</title>
+    <link rel="stylesheet" href="contacto.css"> 
+</head> 
+<body> 
+    <header class="header"> 
+        <!-- Menú de navegación y logo -->
+        <div class="menu container"> 
+            <a href="#" class="logo">Mac.cOches</a> 
+            <nav class="navbar"> 
+                <ul> 
+                    <li><a href="index.html">Inicio</a></li> 
+                    <li><a href="Servicio.html">Servicios</a></li>
+                    <li><a href="Producto.html">Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="citas.html">Reservar Cita</a></li>
+                </ul> 
+            </nav> 
+        </div> 
+    </header> 
+
+    <main class="contact"> 
+        <div class="container"> 
+            <h1>Regístrate para que estemos en contacto</h1> 
+            <!-- Formulario de contacto -->
+            <form action="send_message.php" method="post" class="contact-form"> 
+                <label for="nombre">Nombre:</label> 
+                <input type="text" id="nombre" name="nombre" required> 
+
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email" required>
+
+                <label for="número">Número de teléfono:</label> 
+                <input type="text" id="asunto" name="asunto" required> 
+
+                <label for="Dirección">Dirección:</label> 
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea> 
+
+                <button type="submit">Enviar</button> 
+            </form> 
+        </div> 
+    </main> 
+
+    <footer class="footer"> 
+        <div class="container"> 
+            <!-- Enlaces de información -->
+            <div class="footer-link"> 
+                <h3>Información</h3> 
+                <ul> 
+                    <li><a href="#">Sobre Nosotros</a></li> 
+                    <li><a href="#">Aviso Legal</a></li> 
+                    <li><a href="#">Política de Privacidad</a></li> 
+                    <li><a href="#">Términos y Condiciones</a></li> 
+                </ul> 
+            </div> 
+            <!-- Enlaces de servicios -->
+            <div class="footer-link"> 
+                <h3>Servicios</h3> 
+                <ul> 
+                    <li><a href="services.html">Mantenimiento</a></li> 
+                    <li><a href="services.html">Inspecciones</a></li> 
+                    <li><a href="services.html">Reparaciones</a></li> 
+                </ul> 
+            </div> 
+            <!-- Enlaces de contacto -->
+            <div class="footer-link"> 
+                <h3>Contacto</h3> 
+                <ul> 
+                    <li><a href="contact.html">Contáctanos</a></li> 
+                    <li><a href="#">Mapa del Sitio</a></li> 
+                </ul> 
+            </div> 
+        </div> 
+    </footer> 
+</body> 
+</html>
