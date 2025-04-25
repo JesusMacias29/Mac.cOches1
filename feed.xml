@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mac.cOches</title>
+    <link>https://jesusmacias29.github.io/Mac.cOches1/</link>
+    <description>Coches de todas las gamas</description>
+    <item>
+      <title>Mac.cOches</title>
+      <link>https://jesusmacias29.github.io/Mac.cOches1/blog/articulo1.html</link>
+      <description>Coches de todas las gamas</description>
+    </item>
+    <item>
+      <title>Mac.cOches</title>
+      <link>https://jesusmacias29.github.io/Mac.cOches1/portfolio.html</link>
+      <description>Coches de todas las gamas</description>
+    </item>
+  </channel>
+</rss>
